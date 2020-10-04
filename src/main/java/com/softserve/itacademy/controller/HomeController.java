@@ -8,14 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-    private final UserService userService;
-    public HomeController(UserService userService) {
-        this.userService = userService;
-    }
+    //ToDo
 
-    @GetMapping({"/", "home"})
-    public String home(Model model) {
-        model.addAttribute("users", userService.getAll());
-        return "home";
-    }
+//    @GetMapping({"/", "home"})
+//    public String home(//add needed parameters) {
+//        //ToDo
+//        return "";
+//    }
 }
