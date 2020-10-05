@@ -1,20 +1,7 @@
 package com.softserve.itacademy.controller;
 
-import com.softserve.itacademy.model.Task;
-import com.softserve.itacademy.model.ToDo;
-import com.softserve.itacademy.model.User;
-import com.softserve.itacademy.service.TaskService;
-import com.softserve.itacademy.service.ToDoService;
-import com.softserve.itacademy.service.UserService;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalDateTime;
-import java.util.List;
-import java.util.stream.Collectors;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/todos")

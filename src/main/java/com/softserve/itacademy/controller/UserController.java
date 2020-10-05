@@ -1,13 +1,7 @@
 package com.softserve.itacademy.controller;
 
-import com.softserve.itacademy.model.User;
-import com.softserve.itacademy.service.RoleService;
-import com.softserve.itacademy.service.UserService;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/users")
