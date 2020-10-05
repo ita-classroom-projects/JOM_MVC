@@ -70,32 +70,35 @@ Submit links to your Github repository and make a short video (2-5 minutes) wher
 
 # Mockup examples
 
-1. 'Home' page
+### 1. 'Home' page
+![](Mockups/Home.PNG)
+
+### 2. 'Update Existing User' page
+![](Mockups/UpdateUser.PNG)
+
+### 3. 'Create New User' page
+![](Mockups/Create%20User.PNG)
+
+### 4. 'All ToDo Lists of <User>' page
+![](Mockups/All%20ToDo%20Lists.PNG)
+
+### 5. 'All Tasks From <user's> ToDo List'
+![](Mockups/All%20Tasks%20from%20ToDo%20List.PNG)
+
+### 6.'Create New Task' page
+![](Mockups/Create%20New%20Task.PNG)
+
+### 7. 'Update Task' page
+![](Mockups/Update%20Task.PNG)
 
 
-2. 'Update Existing User' page
-3. 'Create New User' page
-
-    v
-
-4. 'All ToDo Lists of <User>' page
-
-5. 'All Tasks From <user's> ToDo List'
-
-6.'Create New Task' page
-
-7. 'Update Task' page
-
-
-
-# Set Up DB
+## Set Up DB
 If you want to configure and fill your DB automatic you need to create 'todolist' DB in your server and to set properties 
 spring.jpa.hibernate.ddl-auto=create
 spring.datasource.initialization-mode=always
 in application.properties file
 
 When application starts your DB will be filled data from data.sql file from resources folder
-
 
 There are three users with ADMIN and USER roles in DB.
 
