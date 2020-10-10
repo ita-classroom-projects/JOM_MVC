@@ -1,7 +1,9 @@
 # Java Online Marathon
 ## Web Application ‘ToDo List’
+1. Add needed dependencies for working with web and Thymeleaf to #pom.xml# file
+2. Remove comments in all classes in Controller package and add needed code there
 
-## Create Web Application with:
+### Create Web Application with:
 
     1. 'Home' page for displaying information about all registered users
     2. 'Update existing user' for updating a user
@@ -17,7 +19,8 @@
 'Home' page should contain information about all registered users.
 
     1. There should be a menu and a table with information about all registered users
-    2. When a user clicks on ‘Edit’ link near some user 'Update Existing User' page with filled data about the selected user should be opened
+    2. When a user clicks on ‘Edit’ link near some user 'Update Existing User' page with filled data 
+about the selected user should be opened
     3. When a user clicks on ‘Remote’ link the corresponding user should be deleted
     4. When a user clicks on the 'Create New User' button 'Create New User' page with empty fields should be opened
     5. When the user clicks on the name of some user All ToDo lists of <user>' should be opened
