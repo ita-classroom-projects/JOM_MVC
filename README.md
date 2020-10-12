@@ -96,10 +96,10 @@ Submit links to your Github repository and make a short video (2-5 minutes) wher
 
 
 ## Set Up DB
-If you want to configure and fill your DB automatic you need to create 'todolist' DB in your server and to set properties 
-spring.jpa.hibernate.ddl-auto=create
-spring.datasource.initialization-mode=always
-in application.properties file
+If you want to configure and fill your DB automaticly you need to create 'todolist' DB on your server and set properties 
+- spring.jpa.hibernate.ddl-auto=create
+- spring.datasource.initialization-mode=always
+in **application.properties** file
 
 When application starts your DB will be filled data from data.sql file from resources folder
 
