@@ -21,7 +21,7 @@
     1. There should be a menu and a table with information about all registered users
     2. When a user clicks on ‘Edit’ link near some user 'Update Existing User' page with filled data 
 about the selected user should be opened
-    3. When a user clicks on ‘Remote’ link the corresponding user should be deleted
+    3. When a user clicks on ‘Remove’ link the corresponding user should be deleted
     4. When a user clicks on the 'Create New User' button 'Create New User' page with empty fields should be opened
     5. When the user clicks on the name of some user All ToDo lists of <user>' should be opened
 
@@ -46,7 +46,7 @@ about the selected user should be opened
 'All ToDo lists of <user>' page should contain a table with information about all ToDo list some user and 'Create New ToDo list' button
 
     1. When a user clicks on ‘Edit’ link near some list 'Update ToDo list' page with filled data about the selected list should be opened
-    2. When a user clicks on ‘Remote’ link the corresponding list should be deleted
+    2. When a user clicks on ‘Remove’ link the corresponding list should be deleted
     3. When a user clicks on the 'Create New ToDo list' button 'Create New ToDo List' page with empty fields should be opened
     4. When the user clicks on the name of some list 'All Tasks of <ToDo Lists>' should be opened
 
